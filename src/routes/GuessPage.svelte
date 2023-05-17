@@ -31,7 +31,7 @@
 	};
 </script>
 
-<audio src={`/sounds/${answer}.mp3`} id="audio" bind:this={audio} />
+<audio preload="auto" src={`/sounds/${answer}.mp3`} id="audio" bind:this={audio} />
 <button class="mb-8 button block mx-auto bg-green-800" on:click={playSound}>Play the sound</button>
 <h1>Score</h1>
 <p class="mt-2">{guesses.correct} / {guesses.done}</p>
