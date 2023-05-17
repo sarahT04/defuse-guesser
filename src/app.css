@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button {
+        @apply border-solid border-2 rounded-xl py-2 px-3
+    }
+}
+
+body,
+html {
+    background: #1c1c1c;
+    color: whitesmoke;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
